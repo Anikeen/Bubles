@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-16">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Bubles</title>
+</head>
+<body>
+  <div id="app">
+    <div class="stage" id="stage"></div>
+    <div class="needle" id="needle"></div>
+    <div class="timer" id="timer"></div>
+
+    <div class="score-board" id="score">
+      <div class="score-board__title">Вы</div>
+      <div class="score-board__progress">
+        Лопнули: <span id="bursted"></span>
+      </div>
+      <div class="score-board__progress">
+        Пропустили: <span id="missed"></span>
+      </div>
+      <button class="restart-btn btn" id="restart" type="button">Начать заново</button>
+    </div>
+    <div class="start-btn btn" id="start">Начать игру</div>    
+  </div>
+<script src="./js/script.js"></script>
+</body>
+</html>
